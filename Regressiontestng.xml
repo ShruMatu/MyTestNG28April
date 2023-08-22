@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<include name="Regression" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="demo.prioritiesInTestNG" />
+			<class name="demo.test2" />
+			<class name="demo.groupsInTestNG" />
+			<class name="demo.dependsOnINTestNG" />
+			<class name="TestngBasics.test1" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
